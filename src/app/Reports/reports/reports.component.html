@@ -1,0 +1,147 @@
+<section class="content home">
+  <div class="block-header">
+    <div class="row">
+      <div class="col-lg-5 col-md-5 col-sm-12">
+        <h2>Reports
+          <small>Welcome to Reports </small>
+        </h2>
+      </div>
+      <div class="col-lg-7 col-md-7 col-sm-12 text-right">
+
+
+        <ul class="breadcrumb float-md-right">
+          <li class="breadcrumb-item"><a routerLink="/report/reports"><i class="zmdi zmdi-home"></i> Doctor</a></li>
+          <li class="breadcrumb-item active">Reports</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row clearfix">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="card">
+            <div class="header">
+                <h2><strong>Daily Status</strong> Reports</h2>
+            </div>
+          <div class="card-body">
+            <div id="chartdiv" [style.width.%]="100" [style.height.px]="400" ></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="card">
+              <div class="header">
+                  <h2><strong>Illness</strong> Reports</h2>
+              </div>
+            <div class="card-body">
+              <div id="chartdiv1" [style.width.%]="100" [style.height.px]="400" ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row clearfix">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Location</strong> Reports</h2>
+                  </div>
+                <div class="card-body">
+                  <div id="chartdiv2" [style.width.%]="100" [style.height.px]="400" ></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Channel</strong> Reports</h2>
+                    </div>
+                  <div class="card-body">
+                    <div id="m_donut_chart" [style.width.%]="100" [style.height.px]="400" ></div>
+                  </div>
+                </div>
+            </div>
+      </div>
+      <div class="row clearfix">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Yearly</strong> Reports</h2>
+                  </div>
+                <div class="card-body">
+                  <div id="m_bar_chart" [style.width.%]="100" [style.height.px]="400" ></div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <!-- <div class="row clearfix">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Business</strong> Detail</h2>
+                  </div>
+                <div class="card-body">
+                  <div id="world-map-markers" [style.width.%]="100" [style.height.px]="300" ></div>
+                  <div class="row map-content">
+                    <div class="col-lg-6 col-md-12">
+                      <div class="progress-container">
+                        <span class="progress-badge">visitor from america</span>
+                        <div class="progress">
+                          <div class="progress-bar l-turquoise" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+                            <span class="progress-value">86%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="progress-container m-t-20">
+                        <span class="progress-badge">visitor from Canada</span>
+                        <div class="progress">
+                          <div class="progress-bar l-coral" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+                            <span class="progress-value">86%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="progress-container m-t-20">
+                        <span class="progress-badge">visitor from Germany</span>
+                        <div class="progress">
+                          <div class="progress-bar l-blue" role="progressbar" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" style="width: 38%;">
+                            <span class="progress-value">86%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                      <div class="progress-container">
+                        <span class="progress-badge">visitor from UK</span>
+                        <div class="progress">
+                          <div class="progress-bar l-salmon" role="progressbar" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100" style="width: 48%;">
+                            <span class="progress-value">86%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="progress-container m-t-20">
+                        <span class="progress-badge">visitor from India</span>
+                        <div class="progress">
+                          <div class="progress-bar l-parpl" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+                            <span class="progress-value">88%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="progress-container m-t-20">
+                        <span class="progress-badge">visitor from Australia</span>
+                        <div class="progress">
+                          <div class="progress-bar l-amber" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
+                            <span class="progress-value">86%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div> -->
+
+      <!-- /************************************************************************************************/ -->
+
+    </div>
+</section>
